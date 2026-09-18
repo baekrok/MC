@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and notebooks
+.idea/
+.vscode/
+.ipynb_checkpoints/
+*~
+
+# Local configuration and credentials
+.env
+.env.*
+
+# Downloaded datasets
+data/
+
+# Experiment artifacts
+outputs/
+results/
+logs/
+save/
+wandb/
+nohup.out
+*.log
+*.npy
+*.npz
+*.pth
+*.pth.tar
+*.ckpt
+
+# Generated figures and tabular summaries
+*.pdf
+results_*.csv
+results_*.json
+effective_rank_*.json
+effective_rank_*.png

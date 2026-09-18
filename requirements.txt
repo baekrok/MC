@@ -1,0 +1,6 @@
+matplotlib>=3.8
+numpy>=1.26
+torch>=2.3
+torchvision>=0.18
+tqdm>=4.66
+wandb>=0.19
